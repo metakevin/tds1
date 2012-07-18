@@ -222,6 +222,7 @@ const map_sensor_constants_t map_constants[] = {
     {   30, 303, 1338, 657, -1344, 303L*64.848, 303L*MIN_CONSTANT, 303L*MAX_CONSTANT}, /* 3.0 bar, calibrated */
     {   31, 288, 1354, 665, -1930, 288L*64.848, 288L*MIN_CONSTANT, 288L*MAX_CONSTANT}, /* 3.1 bar, interpolated from 2.5/3.0 cal. */
     {   32, 275, 1311, 644, -2453, 275L*64.848, 275L*MIN_CONSTANT, 275L*MAX_CONSTANT}, /* 3.2 bar, interpolated from 2.5/3.0 cal. */
+    {   40, 248, 1094, 537, 522, 248L*64.848, 248L*MIN_CONSTANT, 248L*MAX_CONSTANT}, /* 4 bar freescale, calibrated */
     {   20, 476, 2098, 1031, 0   , 476L*64.848, 476L*MIN_CONSTANT, 476L*MAX_CONSTANT}, /* 2.0 bar */
 //    {  130, 322, 1443, 704,  231, 
 };
